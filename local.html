@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parque Centenário — Guia de Locais</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="pagina-local">
+    <header class="cabecalho">
+      <div class="identidade">
+        <h1 class="logo">Guia de Locais</h1>
+        <p class="subtitulo">Mogi das Cruzes</p>
+      </div>
+      <!-- Requisito: Menu aponta para a index.html e suas âncoras -->
+      <nav aria-label="Menu principal">
+        <ul class="menu-lista">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="local.html" class="ativo" aria-current="page">Locais</a></li>
+          <li><a href="index.html#eventos">Eventos</a></li>
+          <li><a href="index.html#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-local-container">
+      <!-- Requisito: Caminho de volta + âncoras de navegação interna -->
+      <nav class="nav-sub-menu" aria-label="Navegação da página de local">
+        <ul>
+          <li><a href="index.html#parques">&larr; Locais</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#informacoes">Informações</a></li>
+          <li><a href="#comodidades">Comodidades</a></li>
+          <li><a href="#eventos-local">Eventos</a></li>
+          <li><a href="#contato-local">Contato</a></li>
+        </ul>
+      </nav>
+
+      <h2 class="titulo-pagina-local">Parque Centenário</h2>
+
+      <div class="card-detalhe-hero">
+        <div class="banner-ilustracao-por-do-sol">
+          <span class="legenda-banner">Parque Centenário &mdash; foto oficial da assessoria</span>
+        </div>
+        <p class="descricao-banner">Parque Centenário &mdash; vista panorâmica ao entardecer.</p>
+      </div>
+
+      <section id="sobre" class="secao-card">
+        <h3>Sobre o local</h3>
+        <p>
+          O <strong>Parque Centenário</strong> é um dos principais espaços públicos de Mogi das Cruzes, com áreas verdes, pista de caminhada e programação cultural gratuita aos fins de semana.
+        </p>
+        <blockquote>&ldquo;É o lugar onde a cidade respira aos domingos.&rdquo;</blockquote>
+      </section>
+
+      <section id="informacoes" class="secao-card">
+        <h3>Informações</h3>
+        <p class="subtitulo-secao">Funcionamento e avaliação do parque</p>
+
+        <div class="tabela-wrapper">
+          <table class="tabela-info">
+            <thead>
+              <tr>
+                <th>Item</th>
+                <th>Detalhe</th>
+                <th>Observação</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Funcionamento</td>
+                <td>Todos os dias</td>
+                <td>6h às 20h</td>
+              </tr>
+              <tr>
+                <td>Entrada</td>
+                <td>Gratuita</td>
+                <td>Acesso livre</td>
+              </tr>
+              <tr>
+                <td>Avaliação média</td>
+                <td>4,6 de 5</td>
+                <td>1.240 avaliações</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="legenda-data">Atualizado em setembro de 2026</p>
+      </section>
+
+      <section id="comodidades" class="secao-card">
+        <h3>Comodidades</h3>
+        <ol class="lista-comodidades">
+          <li>Pista de caminhada e ciclovia</li>
+          <li>Playground infantil</li>
+          <li>Quiosques com lanches</li>
+          <li>Banheiros e bebedouros</li>
+        </ol>
+      </section>
+
+      <section id="eventos-local" class="secao-card">
+        <h3>Próximos eventos</h3>
+        <div class="evento-item-detalhe">
+          <h4>Festival de Música ao Ar Livre</h4>
+          <p>Apresentações gratuitas de bandas locais no palco principal do parque.</p>
+          <ul class="lista-detalhes-evento">
+            <li>Data: sábado, 20 de setembro</li>
+            <li>Horário: 15h às 21h</li>
+            <li>Entrada gratuita</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contato-local" class="secao-card">
+        <h3>Contato e links</h3>
+        <ul class="lista-links-acao">
+          <li><a href="#">Ver no mapa &rarr;</a></li>
+          <li><a href="#">Instagram do parque &rarr;</a></li>
+          <li><a href="#">Sugerir correção &rarr;</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="rodape">
+      <p>Guia de Locais e Eventos &mdash; Mogi das Cruzes</p>
+    </footer>
+  </body>
+</html>
