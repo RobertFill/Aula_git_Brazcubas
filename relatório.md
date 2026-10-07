@@ -79,4 +79,4 @@ Cálculo em ~1280px:** `51.2px + 12.8px` = 64px &rarr; Trava no máximo de **40p
 
 | Página do Local (`local.html`)| - Foco visível com `:focus-visible` nos elementos interativos.<br>- Responsividade e enquadramento da imagem de destaque via `object-fit: cover`. | - Criação do wrapper com rolagem horizontal na tabela (`.tabela-wrapper`) para evitar estouro da página em telas <320px.<br>- Descrições `alt` detalhadas nas imagens dos banners.
 
--------------------------------------------
+-----------------------------------------------
