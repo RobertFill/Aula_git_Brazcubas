@@ -1,6 +1,6 @@
 REGISTRO DE DECISÕES DE LAYOUT (EVIDÊNCIA DE RACIOCÍNIO)
 
-exercício 8.1
+exercício 8.1    
 
 1.  Grids dos Cards e da Agenda (index.html):
     - Decisão: Intrínseca (repeat(auto-fit, minmax(260px, 1fr))).
@@ -77,4 +77,6 @@ Cálculo em ~1280px:** `51.2px + 12.8px` = 64px &rarr; Trava no máximo de **40p
 
 | Home (`index.html`)| - Regra universal de mídias (`max-width: 100%`).<br>- Dimensionamento fluido do título com `clamp()`.<br>- Garantia da área de toque de 44px nos links de navegação. | - Ajuste da ordem dos títulos hierárquicos (`<h1>` no topo, `<h2>` na vitrine e `<h3>` nas categorias).<br>- Adição de atributos `aria-label` na navegação por categorias. |
 
-| Página do Local (`local.html`)| - Foco visível com `:focus-visible` nos elementos interativos.<br>- Responsividade e enquadramento da imagem de destaque via `object-fit: cover`. | - Criação do wrapper com rolagem horizontal na tabela (`.tabela-wrapper`) para evitar estouro da página em telas <320px.<br>- Descrições `alt` detalhadas nas imagens dos banners. |
+| Página do Local (`local.html`)| - Foco visível com `:focus-visible` nos elementos interativos.<br>- Responsividade e enquadramento da imagem de destaque via `object-fit: cover`. | - Criação do wrapper com rolagem horizontal na tabela (`.tabela-wrapper`) para evitar estouro da página em telas <320px.<br>- Descrições `alt` detalhadas nas imagens dos banners.
+
+-------------------------------------------
